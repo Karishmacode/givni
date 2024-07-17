@@ -1,0 +1,159 @@
+/*================================================
+Project Details CSS
+=================================================*/
+.product_logo{
+height: 50px;
+width: 135px;
+}
+.head_font{
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+
+color: #141324;
+}
+.product_para{
+color: #141324;
+font-size: 16px;
+}
+.product_detail h5{
+font-size: 1rem;
+}
+.logo_display{
+object-fit: contain; 
+border-radius: 52px !important;
+border: 3px solid orange;
+margin: 0px !important;
+height: fit-content;
+mix-blend-mode: multiply
+}
+.container:hover .head_font {
+color: orange;
+}
+.container:hover .enq_border{
+background: orange;
+border: 2px solid orange;
+}
+.container:hover .enq_border a{
+color: white;
+}
+.enq_border:hover a{
+color: white;
+}
+.enq_border{
+text-align: center;
+border: 2px solid grey;
+width: 150px;
+border-radius: 7px;
+}
+.region_india{
+height: 15px;
+width: 25px;
+}
+@media (max-width: 480px){
+.head_font {
+font-size: 18px;
+/* margin-top: 16px;*/
+}}
+@media (max-width: 480px){
+.product_para {
+font-size: 10px;
+
+}}
+@media (max-width: 480px){
+.product_detail h5{
+font-size: 12px;
+
+}}
+@media (max-width: 480px){
+.logo_display {
+height: 200px;  
+}}
+@media (max-width: 480px){
+.product_logo {
+height: 25px;
+width: 90px;
+
+}}
+/*================================================
+Blog Details CSS
+=================================================*/
+.blog_date{
+background: #44b7ce;
+color: white;
+width: fit-content;
+border-radius: 30px;
+}
+.product_bg{
+background: #f7fafd;
+transition: 0.5s;
+}
+.product_bg:hover{
+background: white;
+transition: 0.5s;
+-webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+}
+/*================================================
+Product Details CSS
+=================================================*/
+.pro_bg{
+background-color: #f5fbff;
+
+}
+.product_box{
+border-radius: 10px;
+box-shadow: 0px 8px 36px #00000010;
+}
+.product_box img{
+border-radius: 8px;
+}
+.card-body h5{
+font-weight: 600;
+}
+/*hr{
+margin-top: 0px;
+border: 2px solid blue;
+}*/
+/*================================================
+Auth-Login CSS
+=================================================*/
+.bg-auth-login{
+background: url('../img/bg_givni.jpg');
+background-size: cover;
+}
+.card{
+background-color: #fff0;
+
+border: 1px solid rgb(255 255 255);
+}
+.bg_btn{
+background-color: #04046e;
+border-color: #04046e;
+}
+.bg_btn:hover{
+background-color: #0d6efd;
+}
+.bg_btn1{
+background-color: #0d6efd;
+border-color: #04046e;
+}
+.bg_btn1{
+background-color: #04046e;
+}
+.placeholder_text::placeholder{
+color: white;
+}
+
+.client-container {
+max-width: 975px !important;
+}
+/* header-border */
+
+/* .product-dropmenu li{
+border-bottom: 1px solid #ebebeb;
+}
+
+.product-dropmenu li:last-child{
+border-bottom:none;
+} */

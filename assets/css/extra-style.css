@@ -1,0 +1,594 @@
+/* HRM SERVICE  a CSS variable for the base color  */
+
+.single-features {
+    margin: 0px;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+}
+
+.pricing-box {
+    /* padding: 13px; */
+    padding: 30px 25px;
+    border-radius: 1rem;
+    margin-bottom: 0px !important;
+}
+
+.single-features h3 {
+    margin-top: 1rem;
+}
+
+.single-features .icon {
+    /* top: 19px; */
+    margin-left: 1rem;
+}
+
+/* img color change */
+.mt-3 {
+    color: #fff;
+}
+
+/* tick mark */
+
+.pricing-box .pricing-features li svg {
+    height: 1.1rem;
+}
+
+.special-section .pricing-box .pricing-features li svg {
+    color: #44b7ce;
+    position: static;
+    left: auto;
+    top: auto;
+    -webkit-transform: none;
+    transform: none;
+    width: auto;
+}
+
+
+/*HRM SERVICE STYLE END */
+
+
+
+/* DIGITAL MARKETING SERVICE AREA START  */
+
+.about-text {
+    transition: transform 0.5s ease;
+}
+
+.about-text:hover {
+    transform: translateY(-10px);
+}
+
+
+/* Add candy color animation */
+.about-text {
+    position: relative;
+    transition: transform 0.5s ease;
+    background-color: #89d8d3;
+    background-image: linear-gradient(315deg, #f7fafd 0%, #d889892b 74%);
+    border: none;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow:
+        -7px -7px 20px 0px #fcfbff,
+        -4px -4px 5px 0px #fcfbff,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+}
+
+.about-text:hover {
+    transform: translateY(-10px);
+    color: #fff;
+}
+
+.about-text:hover::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #e1fcff;
+    background-image: linear-gradient(315deg, #89d8d3 0%, #fffcff 74%);
+    box-shadow:
+        -7px -7px 20px 0px #fcfbff,
+        -4px -4px 5px 0px #fcfbff,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+}
+
+.about-text:hover:after {
+    top: 0;
+    height: 100%;
+}
+
+.about-text:active {
+    top: 2px;
+}
+
+/* underline */
+.hover-effect h3::after {
+    content: '';
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background-color: #44b7ce;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.hover-effect:hover h3::after {
+    width: 50%;
+    /* Expand the underline */
+    left: 40;
+    /* Align to the left */
+    margin-left: 7rem;
+}
+
+
+
+
+/* border */
+.about-text.text-center:hover {
+    border-style: solid;
+    border-color: #44b7ce;
+    border-width: 0 0 5px 0;
+    border-radius: unset;
+}
+
+.about-text {
+    border-top: solid 5px #44b7ce;
+}
+
+
+.about-text:hover {
+    border-top: none;
+}
+
+.card {
+    border: none;
+}
+
+/* DIGITAL MARKETING SERVICE AREA END */
+
+/* responsive hrm start */
+
+
+
+/* CSS */
+.feature-title {
+    display: flex;
+    align-items: center;
+}
+
+.feature-title h3 {
+    margin-left: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+/* responsive hrm end */
+
+/* crm-service */
+.pricing-box .pic {
+    height: 244px;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.pricing-box .pic img {
+    /* height: 100%;  */
+    width: auto;
+}
+
+.crm-img {
+    z-index: 3;
+    width: 80%;
+    margin-left: 7rem;
+    margin-top: -4rem
+}
+
+.crm-size {
+    height: 27rem;
+    background: #fff;
+}
+
+.crm-pra {
+    color: #6084a4;
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+
+/* crm-service end*/
+
+/* lead generation services */
+
+.serviceTable .serviceTable-header {
+    padding: 30px 15px 45px;
+    background: #44b7ce;
+    -webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
+    clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
+    position: relative;
+    color: #fff;
+    height: 12rem;
+}
+
+.serviceTable .serviceTable-header h3 {
+    color: white;
+}
+
+
+
+/* background*/
+.serviceTable {
+    padding-bottom: 30px;
+    background: #ffffff;
+    z-index: 1;
+    position: relative;
+    border-radius: 5px;
+    background-position: center center;
+    overflow: hidden;
+    -webkit-box-shadow: 7px 5px 30px 0 rgb(72 73 121 / 15%);
+    box-shadow: 7px 5px 30px 0 rgb(72 73 121 / 15%);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 1rem;
+}
+
+
+.serviceTable .service-content {
+    padding: 30px 25px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+.serviceTable .service-content li {
+    font-size: 15px;
+    color: #6084a4;
+    line-height: 1.7;
+    /* text-transform: capitalize; */
+    border-bottom: 1px solid #eee;
+    margin-bottom: 12px;
+    /* padding-bottom: 12px; */
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.serviceTable .service-content li span {
+    color: #44b7ce;
+}
+
+/* lead-generation-service */
+
+
+/* SEO SERVICE SECTION START  */
+
+
+.analysis-text ul li {
+    list-style-type: none;
+
+}
+
+.analysis-text li {
+    margin-bottom: 15px;
+    text-align: left;
+    color: #6084a4;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+
+}
+
+.analysis-text ul li {
+    position: relative;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.analysis-text ul li::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: 18.5rem;
+    width: 17px;
+    height: 17px;
+    background: #44b7ce;
+    /* background: #ff6d34; */
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.about-text {
+    border-top: none;
+    border-radius: 1rem;
+}
+
+
+/* SEO SERVICE SECTION END  */
+
+
+/* COLLEGE SECTION SERVICE STYLE */
+
+.section-titles {
+    font-size: 26px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.section-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.design-arrow:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border: 2px solid #ff6400;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    top: 100%;
+    left: -5px;
+}
+
+.feature-item {
+    text-align: center;
+    /* margin: 0 auto 15px; */
+    /* height: 35rem; */
+    padding: 30px 20px;
+}
+
+
+.feature-item .wrap-feature-icon {
+    width: 110px;
+    height: 110px;
+    border: 1px solid #eff2f7;
+    background: #fff;
+    padding: 10px;
+    /* margin: 0 auto 26px; */
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.feature-item .wrap-feature-icon .feature-icon {
+    height: 88px;
+    width: 88px;
+    border: 1px solid #eff2f7;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background: #eff2f7;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.icon {
+    font-family: 'Stroke-Gap-Icons';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.feature-item .title {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.feature-item .title:after {
+    content: '';
+    display: block;
+    margin: 20px auto;
+    height: 4px;
+    width: 25px;
+    background: #44b7ce;
+}
+
+.feature-item .text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+.shadow-box {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+
+/* .feature-item .wrap-feature-icon .feature-icon:hover {
+	background: #44b7ce;
+}
+ .wrap-feature-icon:hover {
+    background:#44b7ce;
+    border-color: #44b7ce;
+} */
+.service-contents li {
+    font-size: 15px;
+    color: #6084a4;
+    /* text-transform: capitalize; */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+    list-style-type: none;
+    padding-right: 2rem;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+}
+
+.service-contents li span {
+    color: #44b7ce;
+}
+
+
+/* <!-- ASSOCIATE SECTION SERVICE SECTION STYLE END --> */
+
+
+
+/* <!-- COLLEGE SECTION SERVICE SECTION STYLE END --> */
+.contact-cta-box {
+    margin-bottom: 6rem;
+}
+
+.ass-img {
+    background: #44b7ce;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.dropdown_width {
+    width: 575px !important;
+}
+.carousel-item img {
+    width: 100%;
+    height: 13rem;
+}
+
+/* <!-- ASSOCIATE SECTION SERVICE SECTION STYLE END --> */
+
+/* moblie view  of  col margin-bottom  */
+@media only screen and (max-width: 767px) {
+    .about-inner-area .about-text {
+        margin-top: 8px;
+    }
+}
+
+
+
+/* hover effect from top */
+
+
+@media only screen and (max-width: 767px) {
+    .main-banner {
+        padding-top: 0px;
+    }
+
+    .crm-size {
+        height: auto;
+
+    }
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-banner {
+        padding-top: 0px;
+        height: auto;
+
+    }
+
+    .crm-size {
+        height: auto;
+
+    }
+}
+
+/* PRICING*/
+.pricing-box {
+    /* margin-right: 1rem; */
+}
+
+.pricing-box .pic {
+
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.shadow-box {
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    background: white;
+}
+
+/* BOX WITH IMAGES */
+
+@media screen and (max-width: 768px) {
+    .crm-service {
+        /* margin: 0.3rem;
+        margin-left: .5rem; */
+    }
+    .single-features {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .pricing-box .pic {
+        height: auto;
+
+    }
+}
+/* moblie view  of  col margin-bottom */
+@media only screen and (max-width: 767px) {
+    .about-inner-area .about-text {
+        margin-top: 8px;
+    }
+}
+
+
+
+/* Media query for screen size less than or equal to 768px */
+@media (max-width: 768px) {
+    .feature-title h3 {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .dropdown_width {
+        width: auto !important;
+    }
+}
+
+/* readymade */
+@media screen and(max-width:767px) {
+    .serviceTable{
+        height:auto !important;
+    }
+    
+}
